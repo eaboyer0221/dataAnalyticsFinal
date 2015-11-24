@@ -4,7 +4,7 @@ library(dplyr)
 
 
 #Load data set
-words <- read.csv("./data/words.csv")
+words <- read.csv("data/words.csv")
 
 #Remove uncommon words
 words.cleaned <- words %>% select(Artist, User, HEARD_OF, Aggressive, Edgy, Current, Stylish, 
